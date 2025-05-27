@@ -4,34 +4,47 @@
     <meta charset="UTF-8">
     <meta name="description" content="width=device-width, initial-scale=1.0">
     <title>Portafolio_JuanDiego</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: papayawhip;">
+<body style="background-color: rgb(16, 146, 124);">
     <button type="button">Click here</button>
     <nav>
         <a href="#About Me">About Me</a>
         <a href="Projects">Projects</a>
         <a href="Contact">Contact</a>
     </nav>
-    <h1 style="color:crimson;">Juan Diego Figueroa - Riwi Depeloper.</h1>
+    <div class="fon">
+    <h1>Juan Diego Figueroa - Riwi Depeloper.</h1>
+    </div>
     <section>
-        <h2 style="color:mediumblue">About me.</h2>
+        <div class="funt">
+        <h2>About me.</h2>
+        </div>
         <p>Hello, I am Juan Diego Figueroa Ramos.</p>
         <p>I like creating code, I like technology, I'm 18 years old, I like all kinds of music, as long as it's not really heavy metal haha, but I listen to any kind of music, especially reggaeton and rap from Medellin, and I'm willing to learn everything about development.</p>
-        <img src=".//images/" alt="Juan Diego photo" width="200">
+        <div class="conteiner">
+        <img src=".//images/HNCX5KFQBVALJCN5UTZI4BF23M.avif" alt="Juan Diego photo" width="200">
+        </div>
         <ul>
+            <div class="image_">
             <li>HTML.</li>
             <li>BACKEND.</li>
             <li>FRONTEND.</li>
+            </div>
         </ul>
     </section>
     <section>
-        <div class="conteiner">
+       
         <h2>Projects.</h2>
         <h3>Project 1: Portfolio Website.</h3>
         <p>On this website, you will find a brief description about me and my personal projects.</p>
+        <div class="conteiner">
         <img src=".//images/fsdfs.jpeg" alt="Personal Portfolio" width="300px">
+        </div>
         <h3>Project 2: Python.</h3>
         <p>This is my project, about Python, here we will find exercises and programs about it.</p>
+         <div class="conteiner">
         <img src="./images/Sin títul.jpeg" alt="Python" width="300px">
         </div>
     </section>
@@ -48,7 +61,10 @@
         <tr>
             <td>Portfolio Website</td>
             <td>HTML</td>
-            <td><a href="https://github.com/Juqn-l0v3">View Project</a></td>
+            <div class="git">
+                <a href="https://github.com/Juqn-l0v3" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+            
         </tr>
     </table>
     <form action="/send" method="post">
