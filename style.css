@@ -1,0 +1,29 @@
+.conteiner {
+    display: flex;
+    justify-content: center;
+    
+}
+.funt {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: blue;
+}
+.fon {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(0, 9, 139);
+}
+image_ {
+    box-shadow: 2px 2px 5px rgba(rgb(209, 17, 17), rgb(24, 235, 24), rgb(9, 9, 236), alpha);
+}
+.git a {
+     display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+        background-color: transparent;
+        border:  0.2rem solid #c72a2a;
+        font-size: 2rem;
+        border-radius: 50%;
+        margin: 3rem 1.5rem 3rem 0;
+        transition: 0.3 ease;
+
+}
+       
